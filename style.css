@@ -1,0 +1,30 @@
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #008CBA;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.bg-image {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 150px;
+}

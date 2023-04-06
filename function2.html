@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>功能2</title>
+    <link rel="stylesheet" type="text/css" href="stylef2.css">
+    <script type="text/javascript">
+        function handleSubmit() {
+            var input = document.getElementById("nameInput").value;
+            switch(input) {
+                case "昆明":
+                    alert("梁海华，陆媛");
+                    break;
+                case "兰州":
+                    alert("朱冠舟");
+                    break;
+                case "北京":
+                    alert("何薏凡，程浩楠，杨青欣，黄慧");
+                    break;
+                case "重庆":
+                    alert("李羿柯，辛昊键，李宝仪，陈子锐");
+                    break;
+                case "成都":
+                    alert("邓毅扬，韦昌俊，韦非凡");
+                    break;
+                case "柳州":
+                    alert("陆济秋");
+                    break;
+                case "桂林":
+                    alert("蓝靖怡，韦俨芯，陆链旭，王麒瑞");
+                    break;
+                case "南宁":
+                    alert("谢锐，杨正曦，马奕菲，谭鑫，邓志红，黄柏栋，王佳怡，廖诗铭，何子蕊，黄翠玲，雷海移");
+                    break;
+                case "大连":
+                    alert("蒋雨柔，李承昊");
+                    break;
+                case "长春":
+                    alert("何振铭");
+                    break;
+                case "天津":
+                    alert("黄善钧，朱冠霖，刘健蓉");
+                    break;
+                case "青岛":
+                    alert("刘琦，李显坤");
+                    break;
+                case "南京":
+                    alert("潘华安，熊彬如，陈梦宇，梁埔荣，廖安蝉");
+                    break;
+                case "上海":
+                    alert("宋明浩，张林栋");
+                    break;
+                case "宁波":
+                    alert("杨家骏");
+                    break;
+                case "长沙":
+                    alert("方裕川，姚杰腾");
+                    break;
+                case "武汉":
+                    alert("冯柏毅，刘思彤，张紫云");
+                    break;
+                case "珠海":
+                    alert("韦家铮");
+                    break;
+                case "海口":
+                    alert("刘美芸");
+                    break;
+                default:
+                    window.location.href = "default.png";
+                    alert("找不到此城市的信息")
+            }
+            document.getElementById("nameInput").value = "";
+        }
+    </script>
+</head>
+<body>
+<form onsubmit="handleSubmit(); return false;">
+    <input id="nameInput" type="text" placeholder="输入城市">
+    <br>
+    <input type="submit" value="Go!" >
+</form>
+</body>
+</html>
